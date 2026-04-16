@@ -1,4 +1,4 @@
-package org.example.part2;
+package org.example.part1;
 
 // WICHTIG: Scanner muss importiert werden!
 import java.util.Scanner;
@@ -23,10 +23,5 @@ public class EingabeTest {
 
         // Gute Praxis: Scanner am Ende schließen
         inputScanner.close();
-
-
-        int age = 20;
-        String result = (age >= 18) ? "Erwachsen" : "Kind";
-        System.out.println(result);
     }
 }

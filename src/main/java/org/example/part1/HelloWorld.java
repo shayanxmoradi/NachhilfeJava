@@ -15,5 +15,8 @@ public class HelloWorld {
 
         System.out.println("Price: " + 12.3456);
         System.out.printf("Price: %.2f%n", 12.3456);
+        System.out.printf("name: %s ", "shayan");
+        System.out.println();
+        System.out.println(args[0]+" sagt Hallo!");
     }
 }

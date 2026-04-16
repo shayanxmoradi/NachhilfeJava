@@ -1,4 +1,4 @@
-package org.example.part1;
+package org.example.part2;
 
 public class Uebung1 {
     public static void main(String[] args) {
@@ -11,5 +11,6 @@ public class Uebung1 {
         double prozent = ((double) punkte / maxPunkte) * 100;
 
         System.out.println("Erreichte Prozente: " + prozent + " %");
+        System.out.println(punkte/maxPunkte);
     }
 }

@@ -1,15 +1,40 @@
-package org.example.part1;
+package org.example.part3;
 
 public class TypeCasting {
 
     public static void main(String[] args) {
         // 1. Implizite Typumwandlung (Automatisch: von klein zu groß)
+
+        //byte → short → int → long → float → double
+        //char → int → long → float → double
+
+        //Achtung:
+        // long x = 299999999;
+        //float y = x; = 3.0E8
+
         // Der Compiler macht das automatisch
+
         int kleineZahl = 100;
         double grosseZahl = kleineZahl; // int passt problemlos in double
         System.out.println("Implizit (int zu double): " + grosseZahl); // Ausgabe: 100.0
 
-        // 2. Explizite Typumwandlung (Manuell: von groß zu klein)
+//        grun ohne cast (implicit)
+
+//        int → long
+//        long → float
+//        float → double
+//        char → int
+
+        // Achtung:
+
+//        double → int
+//        float → long
+//        long → int
+
+
+
+        // 2. Explizite Typumwandlung (Manuell: von groß zu klein))(Achtung: Datenverlust!)
+
         // Man muss den Zieltyp in Klammern schreiben. Datenverlust ist möglich!
         double kommazahl = 9.99;
         int ganzzahl = (int) kommazahl; // Nachkommastellen werden einfach abgeschnitten, nicht gerundet! [cite: 486, 488]
