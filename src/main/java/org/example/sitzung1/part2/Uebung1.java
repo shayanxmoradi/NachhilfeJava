@@ -1,4 +1,4 @@
-package org.example.part2;
+package org.example.sitzung1.part2;
 
 public class Uebung1 {
     public static void main(String[] args) {

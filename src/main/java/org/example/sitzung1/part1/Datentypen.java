@@ -1,4 +1,4 @@
-package org.example.part1;
+package org.example.sitzung1.part1;
 
 public class Datentypen {
 

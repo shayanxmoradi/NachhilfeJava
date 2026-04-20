@@ -1,4 +1,4 @@
-package org.example.part1;
+package org.example.sitzung1.part1;
 
 // Jedes Java-Programm braucht mindestens eine Klasse und eine main-Methode.
 // Der Dateiname MUSS exakt wie der Klassenname sein (hier: HelloWorld.java)

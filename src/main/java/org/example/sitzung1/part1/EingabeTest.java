@@ -1,4 +1,4 @@
-package org.example.part1;
+package org.example.sitzung1.part1;
 
 // WICHTIG: Scanner muss importiert werden!
 import java.util.Scanner;
