@@ -1,4 +1,4 @@
-package org.example.part3;
+package org.example.sitzung2.part1;
 
 public class TypeCasting {
 

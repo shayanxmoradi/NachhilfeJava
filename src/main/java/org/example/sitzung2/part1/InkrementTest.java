@@ -1,4 +1,4 @@
-package org.example.part3;
+package org.example.sitzung2.part1;
 
 public class InkrementTest {
 
@@ -29,7 +29,8 @@ public class InkrementTest {
 
         // Verbundoperatoren (Kurzschreibweise)
         int zahl = 5;
-        zahl += 3; // Das ist exakt dasselbe wie: zahl = zahl + 3;
+        zahl = 3; // Das ist exakt dasselbe wie: zahl = zahl + 3
+        zahl = zahl + 3;
         System.out.println("Zahl nach += 3 ist: " + zahl); // 8
     }
 }

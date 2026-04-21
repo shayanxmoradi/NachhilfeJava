@@ -1,4 +1,4 @@
-package org.example.part3;
+package org.example.sitzung2.part1;
 import java.util.Scanner;
 //Aktuell nutzt das Programm ein langes if-else.
 //Schreibe den Code so um, dass er stattdessen den Bedingungsoperator (? :

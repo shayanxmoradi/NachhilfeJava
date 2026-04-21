@@ -1,4 +1,4 @@
-package org.example.part3;
+package org.example.sitzung2.part1;
 
 // Was sind die Outputs von c und d?
 public class Uebung {
