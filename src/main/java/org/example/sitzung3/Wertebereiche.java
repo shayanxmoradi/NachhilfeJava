@@ -1,4 +1,4 @@
-package org.example.sitzung2.part2;
+package org.example.sitzung3;
 
 public class Wertebereiche {
 
