@@ -1,4 +1,4 @@
-package org.example.sitzung4;
+package org.example.sitzung5;
 
 public class Verwaltung {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.sitzung4;
+package org.example.sitzung5;
 
 public class Studierender {
     // 1. Instanzvariablen (Zustand) - IMMER private!
