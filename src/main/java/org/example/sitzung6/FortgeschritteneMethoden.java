@@ -1,4 +1,4 @@
-package org.example.sitzung5;
+package org.example.sitzung6;
 
 public class FortgeschritteneMethoden {
 
@@ -28,7 +28,7 @@ public class FortgeschritteneMethoden {
         meinBuch.preis = 29.99;
 
         // Was passiert, wenn wir das Objekt direkt drucken?
-        // OHNE toString() -> org.example.sitzung5.Buch@2a139a55 (Speicheradresse)
+        // OHNE toString() -> org.example.sitzung6.Buch@2a139a55 (Speicheradresse)
         // MIT toString()  -> Buch: Java für Anfänger (Preis: 29.99 Euro)
         System.out.println(meinBuch);
     }

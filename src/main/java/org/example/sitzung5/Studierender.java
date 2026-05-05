@@ -5,6 +5,9 @@ public class Studierender {
     private String name;
     private double note;
 
+    public Studierender() {
+    }
+
     // 2. Setter-Methoden (Um Werte zu setzen)
     public void setName(String name) {
         // 'this' bezieht sich auf die Instanzvariable dieser Klasse
