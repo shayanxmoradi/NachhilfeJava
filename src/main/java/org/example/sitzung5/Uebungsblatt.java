@@ -21,12 +21,12 @@ public class Uebungsblatt {
         // TODO: Warum stürzt dieses Programm mit einer 'NullPointerException' ab?
         // Repariere den Code, sodass "Student 1: Max" und "Student 2: Anna" richtig ausgegeben werden.
 
-        /*
+
         Student[] gruppe = new Student[2];
         gruppe[0].name = "Max";
         gruppe[1].name = "Anna";
         System.out.println("Student 1: " + gruppe[0].name);
-        */
+
 
 
         System.out.println("\n=== AUFGABE 3: Stack-Gehirnjogging (LIFO & Mathematik) ===");
@@ -63,21 +63,21 @@ public class Uebungsblatt {
 
 // --- Hilfsklassen für die Aufgaben ---
 
-class Student {
-    String name;
-}
-
-class Produkt {
-    private double preis;
-
-    public void setPreis(double preis) {
-        // Hier ist ein Klausur-Fehler versteckt!
-        preis = preis;
-    }
-
-    public double getPreis() {
-        return preis;
-    }
-
-    // TODO: toString() Methode hier überschreiben!
-}
+//class Student {
+//    String name;
+//}
+//
+//class Produkt {
+//    private double preis;
+//
+//    public void setPreis(double preis) {
+//        // Hier ist ein Klausur-Fehler versteckt!
+//        preis = preis;
+//    }
+//
+//    public double getPreis() {
+//        return preis;
+//    }
+//
+//    // TODO: toString() Methode hier überschreiben!
+//}
