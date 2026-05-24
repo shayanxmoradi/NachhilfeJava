@@ -45,9 +45,10 @@ public class MatrixOOP {
         int rowsA = this.getNoOfRows();
         int colsA = this.getNoOfColumns();
         int colsB = matrixB.getNoOfColumns();
+        int rowsB = matrixB.getNoOfRows();
 
         // WICHTIG: Prüfung ob Multiplikation überhaupt möglich ist
-        if (colsA != matrixB.getNoOfRows()) {
+        if (colsA != rowsB) {
             System.out.println("Fehler: Dimensionen passen nicht!");
             return null;
         }
@@ -64,6 +65,7 @@ public class MatrixOOP {
                 matrixC.setElement(i, j, sum);
             }
         }
+
         return matrixC;
     }
 

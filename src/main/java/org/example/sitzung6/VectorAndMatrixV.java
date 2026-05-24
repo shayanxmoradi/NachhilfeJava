@@ -70,6 +70,7 @@ class MatrixV {
     }
 
     // Objektorientierte Multiplikation mit Vektoren
+
     public MatrixV mult(MatrixV matrixB) {
         MatrixV matrixC = new MatrixV(this.getNoOfRows(), matrixB.getNoOfColumns());
 

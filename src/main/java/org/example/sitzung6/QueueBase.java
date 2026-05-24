@@ -59,6 +59,7 @@ public class QueueBase {
     public int remove() {
         if (isEmpty()) {
             System.out.println("UNDERFLOW: Die Queue ist leer!");
+//            throw Exception
             return -1;
         } else {
             int removedElement = buffer[head];        // Element vom head merken
