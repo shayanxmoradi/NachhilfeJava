@@ -13,7 +13,7 @@ public class Uebungsblatt {
 
         verwirren(meineZahl, meinArray);
 
-        // System.out.println("Zahl: " + meineZahl + ", Array[0]: " + meinArray[0]);
+         System.out.println("Zahl: " + meineZahl + ", Array[0]: " + meinArray[0]);
         // Deine Antwort: ...
 
 
