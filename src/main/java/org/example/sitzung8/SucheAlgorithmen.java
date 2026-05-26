@@ -17,7 +17,7 @@ public class SucheAlgorithmen {
         System.out.println("Binäre Suche fand 42 an Index: " + indexBin);
     }
 
-    // Lineare Suche
+    // Lineare Suche O(n)
     public static int lineareSuche(long[] array, long ziel) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == ziel) {
@@ -27,7 +27,7 @@ public class SucheAlgorithmen {
         return -1; // Nicht gefunden
     }
 
-    // Binäre Suche (Rekursiv)
+    // Binäre Suche (Rekursiv) O(log n)
     public static int binaereSucheR(long[] array, long ziel, int min, int max) {
         if (min > max) return -1; // Abbruchbedingung
 

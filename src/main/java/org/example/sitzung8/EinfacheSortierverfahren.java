@@ -18,7 +18,7 @@ public class EinfacheSortierverfahren {
         System.out.println("Bubblesort:    " + Arrays.toString(folge3));
     }
 
-    // 1. Insertionsort (Wie beim Kartenspielen)
+    // 1. Insertionsort (Wie beim Kartenspielen) O(n²)
     public static void insertionsort(int[] folge) {
         for (int i = 1; i < folge.length; i++) {
             int schluessel = folge[i];
@@ -31,7 +31,7 @@ public class EinfacheSortierverfahren {
         }
     }
 
-    // 2. Selectionsort (Sucht immer das kleinste Element)
+    // 2. Selectionsort (Sucht immer das kleinste Element) O(n²)
     public static void selectionsort(int[] folge) {
         for (int i = 0; i < folge.length - 1; i++) {
             int minElement = folge[i];
@@ -48,7 +48,7 @@ public class EinfacheSortierverfahren {
         }
     }
 
-    // 3. Bubblesort (Lässt große Elemente "aufsteigen")
+    // 3. Bubblesort (Lässt große Elemente "aufsteigen") O(n²)
     public static void bubblesort(int[] folge) {
         boolean vertauscht;
         int n = folge.length;
