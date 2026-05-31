@@ -15,6 +15,7 @@ public class SortierTheorie {
          * Bubblesort, Insertionsort und Selectionsort haben im Worst-Case ALLE O(n^2)!
          */
 
+
         /*
          * 2. Stabilität (Stabil)
          * Was bedeutet das? Wenn zwei Elemente gleich sind (z.B. zwei Studenten heißen "Müller"),

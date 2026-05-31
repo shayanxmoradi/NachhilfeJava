@@ -1,5 +1,7 @@
 package org.example.sitzung8;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Arrays;
 
 public class ObjektSortierungMaster {
@@ -49,6 +51,7 @@ class Studierender implements Comparable<Studierender> {
     String name;
     int matrikelNr;
 
+
     public Studierender(String name, int matrikelNr) {
         this.name = name;
         this.matrikelNr = matrikelNr;
@@ -73,4 +76,5 @@ class Studierender implements Comparable<Studierender> {
     public String toString() {
         return name + "(" + matrikelNr + ")";
     }
+
 }

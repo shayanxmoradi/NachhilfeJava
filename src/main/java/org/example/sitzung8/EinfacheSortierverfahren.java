@@ -33,33 +33,46 @@ public class EinfacheSortierverfahren {
 
     // 2. Selectionsort (Sucht immer das kleinste Element) O(n²)
     public static void selectionsort(int[] folge) {
+        int[] folge1 = {44, 55, 12, 42, 94, 18, 6, 67};
+//        6 55 12 42 94 18 44 67
+        // 6 12 55, 42,94, 18, 44,67
+        // 6 12 18 42 94 55 44 67
+        // 6 12 18 42 94 55 44 67
+        // 6 12 18 42 44 55 94 67
+        // 6 12 18 42 44 55 67 94
+
         for (int i = 0; i < folge.length - 1; i++) {
-            int minElement = folge[i];
-            int minIndex = i;
-            for (int j = i + 1; j < folge.length; j++) {
-                if (folge[j] < minElement) {
+            int minElement = folge[i];//minElement = 6
+            int minIndex = i; // min index = 0
+            for (int j = i + 1; j < folge.length; j++) { // j = 6
+                if (folge[j] < minElement) { //  if 67< 6
                     minElement = folge[j];
-                    minIndex = j;
+                    minIndex = j; // min index = 6
                 }
             }
             // Vertauschen
-            folge[minIndex] = folge[i];
+            folge[minIndex] = folge[i]; // folge[6] = folge[0]
             folge[i] = minElement;
         }
     }
 
     // 3. Bubblesort (Lässt große Elemente "aufsteigen") O(n²)
     public static void bubblesort(int[] folge) {
+//        int[] folge1 = {44, 55, 12, 42, 94, 18, 6, 67};
+
         boolean vertauscht;
         int n = folge.length;
         do {
             vertauscht = false;
             for (int i = 0; i < n - 1; i++) {
+                //44, 12, 55, 42, 94, 18, 6, 67
+                // i = 2
+                // 44 12 42 55 94 18 6 67
                 if (folge[i] > folge[i + 1]) {
                     // Vertauschen
-                    int hilf = folge[i];
-                    folge[i] = folge[i + 1];
-                    folge[i + 1] = hilf;
+                    int hilf = folge[i]; // 55
+                    folge[i] = folge[i + 1]; //folge[1]  = 12
+                    folge[i + 1] = hilf; //folge[2] = 55
                     vertauscht = true;
                 }
             }
