@@ -15,7 +15,7 @@ public class QuicksortIterativ {
 
     // P12 Aufgabe 2
     public static void quicksortIterativ(int[] folge) {
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
 
         int links = 0;
         int rechts = folge.length - 1;
@@ -46,7 +46,7 @@ public class QuicksortIterativ {
         }
     }
 
-    // Hilfsmethode: Partition (Wie in Variante 1 aus der Vorlesung)
+    // Hilfsmethode: Partition
     public static int partition(int[] folge, int unten, int oben) {
         int pivotElement = folge[oben];
         int teilungsIndex = unten;

@@ -35,7 +35,7 @@ public class QuicksortGeheimnisse {
 
         for (int j = unten; j < oben; j++) {
             if (folge[j] < pivotElement) {
-                System.out.print("."); // Pflicht-Ausgabe für P12
+                System.out.print(".");
 
                 // Vertausche teilungsIndex und j
                 int hilf = folge[teilungsIndex];

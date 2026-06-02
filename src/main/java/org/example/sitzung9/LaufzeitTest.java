@@ -46,12 +46,12 @@ public class LaufzeitTest {
         printStoppedTime();
 
         // Test Bubblesort (wird bei großen Mengen extrem langsam sein!)
-        startStopwatch();
-        // Hier würdest du deine Bubblesort-Methode aufrufen
-        // Bubblesort.bubblesort(fürBubblesort);
-        endStopwatch();
-        System.out.println("Bubblesort:");
-        printStoppedTime();
+//        startStopwatch();
+//        // Hier würdest du deine Bubblesort-Methode aufrufen
+//        // Bubblesort.bubblesort(fürBubblesort);
+//        endStopwatch();
+//        System.out.println("Bubblesort:");
+//        printStoppedTime();
     }
 
     public static void main(String[] args) {

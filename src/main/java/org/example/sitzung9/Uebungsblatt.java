@@ -1,5 +1,8 @@
 package org.example.sitzung9;
 
+import static org.example.sitzung8.EinfacheSortierverfahren.bubblesort;
+import static org.example.sitzung9.QuicksortRekursiv.quicksort;
+
 public class Uebungsblatt {
 
     public static void main(String[] args) {
