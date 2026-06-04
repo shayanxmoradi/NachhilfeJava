@@ -34,6 +34,17 @@ public class Uebungsblatt {
         // Sollte 'true' sein, wenn du Aufgabe 3 richtig gelöst hast!
     }
 
+    //AUFGABE 4
+
+    String ax = "asdf";
+    String ab = "asdf";
+
+    String a2 = new String("asdf");
+    String b2 = new String("asdf");
+
+    //TODO vergleichen
+    // einmal mit .equals und einmal mit ==
+
     public static void vertauscheArrayElemente(int[] arr) {
         // TODO: Schreibe hier den Code für Aufgabe 2 (Nutze eine 'hilf' Variable)
 

@@ -3,7 +3,11 @@ package org.example.sitzung10;
 public class VariableScope {
 
     // Instanzvariable (Zustand des Objekts)
-    private int meineZahl = 10;
+    private int meineZahl;
+
+    public void setMeineZahl(int meineZahl) {
+        this.meineZahl = meineZahl;
+    }
 
     // Klassenvariable (Gehört der Klasse, für alle Objekte gleich)
     private static int anzahlObjekte = 0;
@@ -35,5 +39,11 @@ public class VariableScope {
         System.out.println("=== KLAUSUR-THEMA 1: Variable Scope & Shadowing ===");
         VariableScope obj = new VariableScope();
         obj.testSchatten(99);
+        obj.setMeineZahl(100);
+//        VariableScope.meineZahl = 12;
+        VariableScope obj2 = new VariableScope();
+
+        System.out.println("Anzahl Objekte: " + VariableScope.anzahlObjekte);
+
     }
 }

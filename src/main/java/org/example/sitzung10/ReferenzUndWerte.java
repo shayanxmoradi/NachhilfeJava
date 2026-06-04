@@ -9,16 +9,20 @@ public class ReferenzUndWerte {
 
         // 1. Primitive Datentypen (Kopie des Werts)
         int zahl = 42;
+
+        int zahl2 = 42;
         aendereZahl(zahl);
         System.out.println("Primitive Zahl nach Methode: " + zahl); // Bleibt 42!
 
         // 2. Arrays (Kopie der REFERENZ!)
         int[] meinArray = {10, 20};
+
         aendereArray(meinArray);
         System.out.println("Array nach Methode: " + Arrays.toString(meinArray)); // Wird zu [99, 20]!
 
         // 3. Kann ich in der Methode das komplette Array "löschen"?
         zerstoereArray(meinArray);
+
         System.out.println("Array nach Zerstörungsversuch: " + Arrays.toString(meinArray)); // Bleibt [99, 20]!
         // Warum? Weil wir nur die KOPIE der Referenz (lokale Variable in der Methode) auf 'null' gesetzt haben!
     }
@@ -33,5 +37,6 @@ public class ReferenzUndWerte {
 
     public static void zerstoereArray(int[] folge) {
         folge = null; // Zerstört nur den LOKALEN "Remote Controller", das Original-Array bleibt sicher!
+//    folge = new int[]{2, 3, 4};
     }
 }

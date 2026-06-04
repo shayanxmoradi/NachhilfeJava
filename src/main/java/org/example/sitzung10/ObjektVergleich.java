@@ -4,10 +4,16 @@ public class ObjektVergleich {
 
     public static void main(String[] args) {
         System.out.println(" '==' vs 'equals' ===");
+        int a  = 5;
+        int b = 6;
+       if (a ==b){
+
+       }
 
         // Wir erzeugen zwei separate Objekte im Heap (mit 'new')
         Float zahl1 = new Float(2.42f);
         Float zahl2 = new Float(2.42f);
+
 
 //        Float zahl1 = Float.valueOf(2.42f);
 //        Float zahl2 = Float.valueOf(2.42f);
@@ -26,6 +32,9 @@ public class ObjektVergleich {
 
         // Unboxing (Java holt den primitiven int automatisch wieder raus)
         int meinePrimitiveZahl = meinObjekt;
-        //int meinePrimitiveZahl = meinObjekt.intValue();
+//       int meinePrimitiveZahl = meinObjekt.intValue();
+
+
+
     }
 }
